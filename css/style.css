@@ -182,10 +182,6 @@
     display: inline-block;
     text-align: center;
     line-height: 20px;
-} text-align: justify;
-hr{
-    color: antiquewhite;
-    width: 3px;
-    margin-bottom: 100px;
+    text-align: justify;
 }
 /* ------footer section start-----------------*/
