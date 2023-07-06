@@ -3,6 +3,61 @@
     padding: 0;
 }
 .menu-container{
-
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(51, 41, 41);
+    padding: 25px 0;
+    color: white;
+    list-style: none;
 }
-https://gias-uddin-swe.github.io/Digital-Product-b8-test/?fbclid=IwAR3vMIekha9OWIPDA9iL-Dl2dY407HmCtV5n8RHlKpae5M5i_66lzGuv4gI
+.logo-png{
+    width: 100px;
+}
+.menus{
+    display: flex;
+}
+.list-item{
+    margin-right: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.list-item:hover{
+    color: rgb(12, 206, 180);
+    background-color: gainsboro;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.bannar-header{
+    font-size: 45px;
+    font-weight: 600;
+    color: aliceblue;
+    line-height: 42px;
+}
+.bannar-title{
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0 15px 0;
+}
+.btn {
+    background-color: #d02a2a;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 1px;
+    color: aliceblue;
+}
+.bannar-img{
+    width: 300px;
+}
+.bannar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-image: url("../img/background.png"), linear-gradient(30deg, rgb(2, 2, 2), #333030);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
