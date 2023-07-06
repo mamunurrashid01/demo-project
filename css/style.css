@@ -48,6 +48,9 @@
     border-radius: 1px;
     color: aliceblue;
 }
+.btn:hover{
+    cursor: pointer;
+}
 .bannar-img{
     width: 300px;
 }
@@ -60,4 +63,45 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.about-image{
+    width: 250px;
+}
+.about{
+    text-align: center;
+    margin-top:0;
+    font-weight: 600;
+    background-color:cornflowerblue ;
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 30px;
+}
+.head{
+    line-height: 26px;
+    font-weight: 600;
+    color: aliceblue;
+    font-size:30px;
+}
+.main{
+    background-image: url("../img/bg1.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+.about-description1{
+    margin-top: 8px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.about-description2{
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-weight: 600;
 }
