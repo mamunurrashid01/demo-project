@@ -160,22 +160,23 @@
 /* ------service section start----------------- */
 
 /* ------footer section start----------------- */
-.footer-fint{
+.footer-section{
     background-image: url("../img/background.png"), linear-gradient(270deg, rgba(8, 8, 8, 0.925), rgb(7, 7, 7), rgb(13, 14, 13));
-    height: 350px;
+}
+.footer-fint{
+    height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: antiquewhite;
-    text-align: center;
-    padding: 20px;
+    padding: 20px 65px;
+    gap: 10px;
 }
 .information{
     width: 200px;
-    height: 250px;
+    height: 100px;
 }
 .footer-heading {
-    text-align: center;
     margin-bottom: 12px;
 }
 .per-title{
@@ -184,4 +185,5 @@
     line-height: 20px;
     text-align: justify;
 }
+
 /* ------footer section start-----------------*/
